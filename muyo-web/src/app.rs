@@ -56,6 +56,6 @@ fn HomePage() -> impl IntoView {
 
     view! {
         <h1>"Welcome to Leptos!"</h1>
-        <button on:click=on_click>"Click Me: " {count}</button>
+        <button class="mx-8 h-auto p-4 border rounded-md  bg-purple-400 hover:bg-purple-700" on:click=on_click>"Click Me: " {count}</button>
     }
 }
